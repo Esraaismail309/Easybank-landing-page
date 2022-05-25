@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Easy bank</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-warning position-fixed w-100"
+    >
+      <div class="container py-3 px-5">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active mx-2" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" aria-current="page" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-2" aria-current="page" href="#">careers</a>
+            </li>
+          </ul>
+          <button class="btn rounded-pill btn-info px-4 py-2">
+            Request Invite
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <header class="vh-100 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="header__content">
+              <h1>Next generation digital banking</h1>
+              <p>
+                Take your financial life online.Your Easybank account will be
+                one-stop-shop for spending,saving, budgenting,investing,and much
+                more.
+              </p>
+              <button class="btn rounded-pill btn-info px-4 py-2">
+                Request Invite
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="header__img">
+              <!-- <picture>
+                <source
+                  media="(max-width:375px)"
+                  srcset="./images/bg-intro-mobile.svg"
+                />
+                <img
+                  src="./images/bg-intro-desktop.svg"
+                  class="img-fluid"
+                  alt="bg-intro"
+                />
+              </picture> -->
+              <img src="./images/image-mockups.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section class="about py-5">
+      <div class="container">
+        <div class="row">
+          <h2>Why choose Easybank ?</h2>
+          <p>
+            we leverage Open Banking to turn your account into your financial
+            hub.
+          </p>
+          <p class="mb-5">control your finances like never before.</p>
+          <div class="col-lg-3 col-md-6">
+            <div class="about__item p-2 mt-4">
+              <img
+                src="./images/icon-online.svg"
+                class="img-fluid"
+                alt="icon-online"
+              />
+              <h3 class="my-4">Online Banking</h3>
+              <p class="text-muted fw-normal">
+                Our modern web and mobile applications allow you to keep track
+                of your finances wherever you are in the world
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="about__item p-2 mt-4">
+              <img
+                src="./images/icon-budgeting.svg"
+                class="img-fluid"
+                alt="icon-budgeting"
+              />
+              <h3 class="my-4">Simple Budgeting</h3>
+              <p class="text-muted fw-normal">
+                Our modern web and mobile applications allow you to keep track
+                of your finances wherever you are in the world
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="about__item p-2 mt-4">
+              <img
+                src="./images/icon-onboarding.svg"
+                class="w"
+                alt="icon-onboarding"
+              />
+              <h3 class="my-4">Fast Onboarding</h3>
+              <p class="text-muted fw-normal">
+                Our modern web and mobile applications allow you to keep track
+                of your finances wherever you are in the world
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="about__item p-2 mt-4">
+              <img src="./images/icon-api.svg" class="w" alt="icon-api" />
+              <h3 class="my-4">Open API</h3>
+              <p class="text-muted fw-normal">
+                Our modern web and mobile applications allow you to keep track
+                of your finances wherever you are in the world
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
