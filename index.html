@@ -20,7 +20,7 @@
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Easy bank</title>
+    <title>Easybank</title>
   </head>
   <body>
     <nav
@@ -43,48 +43,54 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active mx-2" aria-current="page" href="#"
+            <li class="nav-item position-relative fw-bold">
+              <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">about</a>
+            <li class="nav-item fw-bold position-relative">
+              <a class="nav-link mx-2 text-muted" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">contact</a>
+            <li class="nav-item fw-bold position-relative">
+              <a class="nav-link text-muted" aria-current="page" href="#"
+                >Contact</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" aria-current="page" href="#">blog</a>
+            <li class="nav-item fw-bold position-relative">
+              <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
+                >Blog</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" aria-current="page" href="#">careers</a>
+            <li class="nav-item fw-bold position-relative">
+              <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
+                >Careers</a
+              >
             </li>
           </ul>
-          <button class="btn rounded-pill btn-info px-4 py-2">
+          <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
             Request Invite
           </button>
         </div>
       </div>
     </nav>
     <!-- header -->
-    <header class="vh-100 bg-light">
+    <header class="vh-100">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="header__content">
-              <h1>Next generation digital banking</h1>
-              <p>
+          <div class="col-md-6 order-sm-1">
+            <div class="header__content w-75 m-auto">
+              <h1 class="fw-bold">Next generation digital banking</h1>
+              <p class="text- fw-normal">
                 Take your financial life online.Your Easybank account will be
                 one-stop-shop for spending,saving, budgenting,investing,and much
                 more.
               </p>
-              <button class="btn rounded-pill btn-info px-4 py-2">
+              <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
                 Request Invite
               </button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-sm-2">
             <div class="header__img">
               <!-- <picture>
                 <source
@@ -105,61 +111,63 @@
     </header>
     <!-- about -->
     <section class="about py-5">
-      <div class="container">
+      <div class="container py-5">
         <div class="row">
-          <h2>Why choose Easybank ?</h2>
-          <p>
-            we leverage Open Banking to turn your account into your financial
-            hub.
-          </p>
-          <p class="mb-5">control your finances like never before.</p>
+          <div class="about__header text-center text-md-start">
+            <h2 class="px-3 mb-4">Why choose Easybank ?</h2>
+            <p class="px-3 w-50">
+              we leverage Open Banking to turn your account into your financial
+              hub. control your finances like never before.
+            </p>
+            <p class="mb-5"></p>
+          </div>
           <div class="col-lg-3 col-md-6">
-            <div class="about__item p-2 mt-4">
+            <div class="about__item p-2 mt-4 text-center text-md-start">
               <img
                 src="./images/icon-online.svg"
                 class="img-fluid"
                 alt="icon-online"
               />
               <h3 class="my-4">Online Banking</h3>
-              <p class="text-muted fw-normal">
+              <p class="text- fw-normal">
                 Our modern web and mobile applications allow you to keep track
                 of your finances wherever you are in the world
               </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="about__item p-2 mt-4">
+            <div class="about__item p-2 mt-4 text-center text-md-start">
               <img
                 src="./images/icon-budgeting.svg"
                 class="img-fluid"
                 alt="icon-budgeting"
               />
               <h3 class="my-4">Simple Budgeting</h3>
-              <p class="text-muted fw-normal">
+              <p class="text- fw-normal">
                 Our modern web and mobile applications allow you to keep track
                 of your finances wherever you are in the world
               </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="about__item p-2 mt-4">
+            <div class="about__item p-2 mt-4 text-center text-md-start">
               <img
                 src="./images/icon-onboarding.svg"
                 class="w"
                 alt="icon-onboarding"
               />
               <h3 class="my-4">Fast Onboarding</h3>
-              <p class="text-muted fw-normal">
+              <p class="text- fw-normal">
                 Our modern web and mobile applications allow you to keep track
                 of your finances wherever you are in the world
               </p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
-            <div class="about__item p-2 mt-4">
+            <div class="about__item p-2 mt-4 text-center text-md-start">
               <img src="./images/icon-api.svg" class="w" alt="icon-api" />
               <h3 class="my-4">Open API</h3>
-              <p class="text-muted fw-normal">
+              <p class="text- fw-normal">
                 Our modern web and mobile applications allow you to keep track
                 of your finances wherever you are in the world
               </p>
@@ -169,10 +177,10 @@
       </div>
     </section>
     <!-- Articles -->
-    <section class="articles my-5 bg-light">
+    <section class="articles py-5">
       <div class="container">
         <div class="row">
-          <h2 class="fw-normal fs-1 mb-5 text-center text-md-start">
+          <h2 class="fw-normal fs-1 mb-5 text-center text-md-start ms-3">
             Latest Articles
           </h2>
           <div class="col-lg-3 col-md-6">
@@ -183,12 +191,12 @@
                 title="image-currency"
                 class="img-fluid rounded-top"
               />
-              <div class="article__body p-3">
-                <small class="text-muted">By Clarin Robinson</small>
+              <div class="article__body p-4">
+                <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
                   Receive money in any currency with no fees
                 </h5>
-                <p class="text-muted">
+                <p class="text-">
                   The world is getting smaller and we’re becoming more mobile.So
                   why should you be forced to only receive money in a single ..
                 </p>
@@ -203,12 +211,12 @@
                 title="image-restaurant"
                 class="img-fluid rounded-top"
               />
-              <div class="article__body p-3">
-                <small class="text-muted">By Clarin Robinson</small>
+              <div class="article__body p-4">
+                <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
                   Receive money in any currency with no fees
                 </h5>
-                <p class="text-muted">
+                <p class="text-">
                   The world is getting smaller and we’re becoming more mobile.So
                   why should you be forced to only receive money in a single ..
                 </p>
@@ -223,12 +231,12 @@
                 title="image-plane"
                 class="img-fluid rounded-top"
               />
-              <div class="article__body p-3">
-                <small class="text-muted">By Clarin Robinson</small>
+              <div class="article__body p-4">
+                <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
                   Receive money in any currency with no fees
                 </h5>
-                <p class="text-muted">
+                <p class="text-">
                   The world is getting smaller and we’re becoming more mobile.So
                   why should you be forced to only receive money in a single ..
                 </p>
@@ -243,12 +251,12 @@
                 title="image-confetti"
                 class="img-fluid rounded-top"
               />
-              <div class="article__body p-3">
-                <small class="text-muted">By Clarin Robinson</small>
+              <div class="article__body p-4">
+                <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
                   Receive money in any currency with no fees
                 </h5>
-                <p class="text-muted">
+                <p class="text-">
                   The world is getting smaller and we’re becoming more mobile.So
                   why should you be forced to only receive money in a single ..
                 </p>
@@ -259,7 +267,7 @@
       </div>
     </section>
     <!-- footer -->
-    <footer class="mt-5 bg-dark py-5">
+    <footer class="mt-5 py-5">
       <div class="container">
         <div class="row text-white text-center">
           <div class="col-lg-3">
@@ -326,10 +334,10 @@
           </div>
           <div class="col-lg-4">
             <div class="footer__content text-lg-end">
-              <button class="btn rounded-pill btn-info px-4 py-2">
+              <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
                 Request Invite
               </button>
-              <p class="text-muted mt-3">© Easybank. All Rights Reserved</p>
+              <p class="text- mt-3">© Easybank. All Rights Reserved</p>
             </div>
           </div>
         </div>
