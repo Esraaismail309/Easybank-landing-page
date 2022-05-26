@@ -17,8 +17,8 @@ Users should be able to: see home screen of easybank
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/Esraaismail309/Easybank-landing-page
+- Live Site URL: https://easybank-landing-page-esraa.netlify.app/#
 
 ### Built with
 
