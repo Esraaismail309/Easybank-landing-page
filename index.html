@@ -24,98 +24,100 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-warning position-fixed w-100"
+      class="navbar navbar-expand-lg navbar-light position-fixed w-100 fixed-top w-100 bg-white"
     >
       <div class="container py-3 px-5">
         <a class="navbar-brand" href="#"
           ><img src="./images/logo.svg" alt=""
         /></a>
-        <button
-          class="navbar-toggler"
+        <img
+          src="./images/icon-hamburger.svg"
+          class="navbar-toggler img-fluid border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        />
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <!-- <img src="./images/icon-hamburger.svg" class="img-fluid" alt="" /> -->
+        <!-- </span> -->
+        <!-- </> -->
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item position-relative fw-bold">
-              <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item fw-bold position-relative">
-              <a class="nav-link mx-2 text-muted" href="#">About</a>
-            </li>
-            <li class="nav-item fw-bold position-relative">
-              <a class="nav-link text-muted" aria-current="page" href="#"
-                >Contact</a
-              >
-            </li>
-            <li class="nav-item fw-bold position-relative">
-              <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
-                >Blog</a
-              >
-            </li>
-            <li class="nav-item fw-bold position-relative">
-              <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
-                >Careers</a
-              >
-            </li>
-          </ul>
-          <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
-            Request Invite
-          </button>
+          <div
+            class="nav__content w-100 d-flex flex-wrap justify-content-around"
+          >
+            <ul class="navbar-nav m-auto mb-2 col-12 col-md-6 mb-lg-0">
+              <li class="nav-item position-relative fw-bold text-center">
+                <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item fw-bold position-relative text-center">
+                <a class="nav-link mx-2 text-muted" href="#">About</a>
+              </li>
+              <li class="nav-item fw-bold position-relative text-center">
+                <a class="nav-link text-muted" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item fw-bold position-relative text-center">
+                <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item fw-bold position-relative text-center">
+                <a class="nav-link mx-2 text-muted" aria-current="page" href="#"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+            <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
+              Request Invite
+            </button>
+          </div>
         </div>
       </div>
     </nav>
-    <!-- header -->
     <header class="vh-100">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-sm-1">
-            <div class="header__content w-75 m-auto">
-              <h1 class="fw-bold">Next generation digital banking</h1>
-              <p class="text- fw-normal">
-                Take your financial life online.Your Easybank account will be
-                one-stop-shop for spending,saving, budgenting,investing,and much
-                more.
-              </p>
-              <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
-                Request Invite
-              </button>
-            </div>
+      <div
+        class="main__header d-flex justify-content-between align-items-center"
+      >
+        <div class="col-md-6">
+          <div class="header__content">
+            <h1>Next generation digital banking</h1>
+            <p class="h5 my-4">
+              Take your financial life online.Your Easybank account will be
+              one-stop-shop for spending,saving, budgenting,investing,and much
+              more.
+            </p>
+            <button class="btn rounded-pill px-4 py-2 text-white fw-bold">
+              Request Invite
+            </button>
           </div>
-          <div class="col-md-6 order-sm-2">
-            <div class="header__img">
-              <!-- <picture>
-                <source
-                  media="(max-width:375px)"
-                  srcset="./images/bg-intro-mobile.svg"
-                />
-                <img
-                  src="./images/bg-intro-desktop.svg"
-                  class="img-fluid"
-                  alt="bg-intro"
-                />
-              </picture> -->
-              <img src="./images/image-mockups.png" class="img-fluid" alt="" />
-            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="header__img">
+            <img
+              src="./images/image-mockups.png"
+              class="img-fluid"
+              alt="image-mockups"
+            />
           </div>
         </div>
       </div>
     </header>
     <!-- about -->
-    <section class="about py-5">
-      <div class="container py-5">
+    <section class="about py-5 mt-5">
+      <div class="container py-5 mt-5">
         <div class="row">
           <div class="about__header text-center text-md-start">
-            <h2 class="px-3 mb-4">Why choose Easybank ?</h2>
-            <p class="px-3 w-50">
+            <h2 class="px-3 mb-4 fs-1 col-sm-4 col-md-12">
+              Why choose Easybank ?
+            </h2>
+            <p class="px-3">
               we leverage Open Banking to turn your account into your financial
               hub. control your finances like never before.
             </p>
@@ -180,17 +182,19 @@
     <section class="articles py-5">
       <div class="container">
         <div class="row">
-          <h2 class="fw-normal fs-1 mb-5 text-center text-md-start ms-3">
+          <h2 class="fw-normal fs-1 mb-5 text-center text-md-start ps-4">
             Latest Articles
           </h2>
           <div class="col-lg-3 col-md-6">
             <article class="rounded bg-white m-3">
-              <img
-                src="./images/image-currencyyyy.jpg"
-                alt="image-currency"
-                title="image-currency"
-                class="img-fluid rounded-top"
-              />
+              <div class="article__img">
+                <img
+                  src="./images/image-currency.jpg"
+                  alt="image-currency"
+                  title="image-currency"
+                  class="img-fluid rounded-top"
+                />
+              </div>
               <div class="article__body p-4">
                 <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
@@ -205,12 +209,36 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <article class="rounded bg-white m-3">
-              <img
-                src="./images/image-restaurant.jpg"
-                alt="image-restaurant"
-                title="image-restaurant"
-                class="img-fluid rounded-top"
-              />
+              <div class="article__img">
+                <img
+                  src="./images/image-restaurant.jpg"
+                  alt="image-restaurant"
+                  title="image-restaurant"
+                  class="img-fluid rounded-top"
+                />
+              </div>
+              <div class="article__body p-4">
+                <small class="text-">By Clarin Robinson</small>
+                <h5 class="my-3 fw-normal">
+                  Receive money in any currency with no fees
+                </h5>
+                <p class="text-">
+                  The world is getting smaller and we’re becoming more mobile.So
+                  why should you be forced to only receive money in a single ..
+                </p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <article class="rounded-3 bg-white m-3">
+              <div class="article__img">
+                <img
+                  src="./images/image-plane.jpg"
+                  alt="image-plane"
+                  title="image-plane"
+                  class="img-fluid rounded-top"
+                />
+              </div>
               <div class="article__body p-4">
                 <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
@@ -225,32 +253,14 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <article class="rounded bg-white m-3">
-              <img
-                src="./images/image-plane.jpg"
-                alt="image-plane"
-                title="image-plane"
-                class="img-fluid rounded-top"
-              />
-              <div class="article__body p-4">
-                <small class="text-">By Clarin Robinson</small>
-                <h5 class="my-3 fw-normal">
-                  Receive money in any currency with no fees
-                </h5>
-                <p class="text-">
-                  The world is getting smaller and we’re becoming more mobile.So
-                  why should you be forced to only receive money in a single ..
-                </p>
+              <div class="article__img">
+                <img
+                  src="./images/image-confetti.jpg"
+                  alt="image-confetti"
+                  title="image-confetti"
+                  class="img-fluid rounded-top"
+                />
               </div>
-            </article>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <article class="rounded bg-white m-3">
-              <img
-                src="./images/image-confetti.jpg"
-                alt="image-confetti"
-                title="image-confetti"
-                class="img-fluid rounded-top"
-              />
               <div class="article__body p-4">
                 <small class="text-">By Clarin Robinson</small>
                 <h5 class="my-3 fw-normal">
