@@ -17,7 +17,6 @@ button {
 // Navbar
 nav .navbar-nav .nav-link {
   transition: all 0.5s;
-
   &:hover {
     &::after {
       content: "";
@@ -97,8 +96,9 @@ header {
     }
   }
   @include sm {
-    margin-bottom: 4.5rem;
+    margin-bottom: 10.5rem;
   }
+  margin-bottom: 4.5rem;
 }
 
 // About
