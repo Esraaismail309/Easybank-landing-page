@@ -10,10 +10,10 @@ Users should be able to: see home screen of easybank
 
 ### Screenshot
 
-![]
-(./design/desktop.png)
-(./design/mobile screen.png)
-(./design/active-desktop.png)
+![desktop](./design/desktop.png)
+![active-desktop](./design/active-desktop.png)
+![mobile](./design/mobile screen.png)
+
 
 ### Links
 
